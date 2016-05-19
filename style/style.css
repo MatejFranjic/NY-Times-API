@@ -1,0 +1,40 @@
+.footer-div {
+    text-align: center;
+    clear: both;
+    padding: 5%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.intro{
+	padding:20px;
+}
+.col-lg-4{
+	border:2px solid #ddd;
+	border-radius:5px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+form{
+	display:flex;
+	margin-top:20px;
+}
+figcaption{
+	 	height: 38px!important;
+    overflow: hidden;
+    line-height: 18px;
+}
+figcaption span{
+	  font-size: 0.75em;
+    font-style: italic;
+}
+.single-post-content figure{
+	display:none;
+}
+.single-post-content > figure:last-of-type{
+	display:block;
+}
+@media screen and (min-width: 1200px){
+	.col-lg-4{
+		min-height: 560px!important;
+	}
+}
